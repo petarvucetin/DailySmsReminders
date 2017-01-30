@@ -1,0 +1,18 @@
+﻿{   
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    },
+    {
+      "tableName": "Reminder",
+      "connection": "",
+      "name": "table",
+      "type": "table",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
